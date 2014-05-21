@@ -21,15 +21,6 @@
 ///
 //*****************************************************************************
 ///
-/// Device Type:	Switch
-///
-/// Commands:		openBlinds
-///					closeInside
-///					closeOutside
-///
-/// Attributes:		openedState
-///					closedInsideState
-///					closedOutsideState
 ///
 /// To-Do's:		* Change tiles to miniblinds when ST has them.
 ///					* Change sketch to be able to get angles from app and
@@ -38,6 +29,14 @@
 
 
 metadata {
+	// Automatically generated. Make future change here.
+	definition (name: "MiniBlind", author: "todd@wackford.net") {
+
+		command "closeInside"
+		command "closeOutside"
+		command "openBlinds"
+	}
+
 	// Simulator metadata
 
 
